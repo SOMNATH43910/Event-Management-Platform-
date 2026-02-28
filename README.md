@@ -1,200 +1,352 @@
-<!-- ================= HERO SECTION ================= -->
+<div align="center">
 
-<p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=260&section=header&text=Event%20Management%20Platform&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=38"/>
+<!-- ANIMATED HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,30:203a43,60:2c5364,100:1a1a2e&height=300&section=header&text=EventOS&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Real-Time%20Event%20Management%20Platform&descAlignY=58&descSize=22&descColor=a8d8ea"/>
+
+<!-- TYPING ANIMATION -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=00D9FF&center=true&vCenter=true&multiline=false&width=700&height=50&lines=⚡+Real-Time+Event+Management+System;🌐+Spring+Boot+%2B+React+%2B+WebSockets;🔐+Secure+REST+API+Architecture;🐳+Dockerized+%26+Production-Ready;🚀+Built+by+Somnath+Rana"/>
+
+<br/>
+
+<!-- ANIMATED BADGES -->
+<p>
+  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge&logo=semver&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
 </p>
 
-<h1 align="center">Somnath Rana</h1>
-<h3 align="center">Full Stack Developer • Spring Boot • React • WebSockets • System Design</h3>
-
-<p align="center">
-<img src="https://readme-typing-svg.herokuapp.com/?lines=Real-Time+Event+Management+System;Spring+Boot+Backend+Architecture;React+Frontend+Integration;WebSocket+Live+Updates;Building+Strong+Fundamentals&center=true&width=900&height=45">
-</p>
+</div>
 
 ---
 
-# 🚧 Project Status
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> Tech Stack
 
-> ⚠ **Work In Progress**
->
-> This project is currently under active development.  
-> Core backend structure is implemented.  
-> React frontend and WebSocket live features are being integrated.  
->
-> 🔜 Full production-ready version will be uploaded soon.
+<div align="center">
 
----
+<table>
+<tr>
+  <td align="center" width="130">
+    <img src="https://skillicons.dev/icons?i=spring" width="48" height="48" alt="Spring Boot"/><br/>
+    <sub><b>Spring Boot</b></sub>
+  </td>
+  <td align="center" width="130">
+    <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React"/><br/>
+    <sub><b>React</b></sub>
+  </td>
+  <td align="center" width="130">
+    <img src="https://skillicons.dev/icons?i=postgresql" width="48" height="48" alt="PostgreSQL"/><br/>
+    <sub><b>PostgreSQL</b></sub>
+  </td>
+  <td align="center" width="130">
+    <img src="https://skillicons.dev/icons?i=docker" width="48" height="48" alt="Docker"/><br/>
+    <sub><b>Docker</b></sub>
+  </td>
+  <td align="center" width="130">
+    <img src="https://skillicons.dev/icons?i=maven" width="48" height="48" alt="Maven"/><br/>
+    <sub><b>Maven</b></sub>
+  </td>
+  <td align="center" width="130">
+    <img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java"/><br/>
+    <sub><b>Java 17</b></sub>
+  </td>
+</tr>
+</table>
 
-# 🚀 Project Overview
+<br/>
 
-The **Event Management Platform** is a full-stack application built to strengthen backend fundamentals and introduce real-time system design.
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.x-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?style=flat-square&logo=docker&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-STOMP-FF6B35?style=flat-square&logo=socket.io&logoColor=white)
+![Security](https://img.shields.io/badge/Spring_Security-Auth-6DB33F?style=flat-square&logo=springsecurity&logoColor=white)
 
-This project demonstrates:
-
-- REST API development with Spring Boot
-- Real-time communication using WebSockets
-- Basic Authentication with Spring Security
-- React frontend integration
-- Clean layered backend architecture
-- Scalable project structuring
-
----
-
----
-
----
-
-# 🏗 Architecture Diagram
-
-<p align="center">
-
-<svg width="900" height="420" viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
-
-<defs>
-  <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-    <stop offset="0%" style="stop-color:#141E30;stop-opacity:1" />
-    <stop offset="100%" style="stop-color:#243B55;stop-opacity:1" />
-  </linearGradient>
-</defs>
-
-<!-- Background -->
-<rect width="900" height="420" fill="url(#grad)" rx="20"/>
-
-<!-- Boxes -->
-<rect x="325" y="40" width="250" height="60" fill="#1e293b" stroke="#38bdf8" stroke-width="2" rx="15"/>
-<text x="450" y="75" fill="white" font-size="16" font-family="Arial" text-anchor="middle">
-🌐 React Frontend
-</text>
-
-<rect x="300" y="150" width="300" height="70" fill="#1e293b" stroke="#38bdf8" stroke-width="2" rx="15"/>
-<text x="450" y="190" fill="white" font-size="16" font-family="Arial" text-anchor="middle">
-🚀 Spring Boot Backend
-</text>
-
-<rect x="120" y="280" width="250" height="60" fill="#1e293b" stroke="#38bdf8" stroke-width="2" rx="15"/>
-<text x="245" y="315" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
-🎫 Event Module
-</text>
-
-<rect x="530" y="280" width="250" height="60" fill="#1e293b" stroke="#38bdf8" stroke-width="2" rx="15"/>
-<text x="655" y="315" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
-👤 User Module
-</text>
-
-<rect x="325" y="360" width="250" height="50" fill="#1e293b" stroke="#38bdf8" stroke-width="2" rx="15"/>
-<text x="450" y="390" fill="white" font-size="15" font-family="Arial" text-anchor="middle">
-💾 MySQL Database
-</text>
-
-<!-- Arrows -->
-<line x1="450" y1="100" x2="450" y2="150" stroke="#94a3b8" stroke-width="2"/>
-<line x1="450" y1="220" x2="245" y2="280" stroke="#94a3b8" stroke-width="2"/>
-<line x1="450" y1="220" x2="655" y2="280" stroke="#94a3b8" stroke-width="2"/>
-<line x1="245" y1="340" x2="450" y2="360" stroke="#94a3b8" stroke-width="2"/>
-<line x1="655" y1="340" x2="450" y2="360" stroke="#94a3b8" stroke-width="2"/>
-
-</svg>
-
-</p>
+</div>
 
 ---
 
----
+## 🚀 Project Overview
 
-# 🧩 Core Features
+> **EventOS** is a **production-grade full-stack Event Management Platform** engineered for performance, real-time responsiveness, and clean architecture — built to demonstrate enterprise-level engineering patterns.
 
-## ✅ Backend (Implemented)
+<div align="center">
 
-- Event CRUD APIs
-- Basic Authentication
-- Layered Architecture (Controller → Service → Repository)
-- Spring Data JPA Integration
+| 🎯 Feature | 💡 Tech Used | ✅ Status |
+|:---|:---|:---:|
+| REST API Architecture | Spring Boot MVC | ✅ Done |
+| Real-Time Updates | WebSockets (STOMP) | ✅ Done |
+| Secure Endpoints | Spring Security | ✅ Done |
+| Frontend Integration | React + Axios | ✅ Done |
+| Containerization | Docker | ✅ Done |
+| Database ORM | Spring Data JPA | ✅ Done |
 
-## 🚧 In Progress
-
-- WebSocket Live Notifications
-- Event Registration Flow
-- Admin APIs
-- React UI Integration
-- Role-based Access Control
+</div>
 
 ---
 
-# 🔐 Authentication Flow
+## 🌐 Web Interface
 
-1. User sends credentials via Basic Auth
-2. Spring Security validates user
-3. Protected endpoints become accessible
-4. Planned upgrade → JWT-based authentication
-
----
-
-# 🔄 Real-Time WebSocket Flow (In Progress)
-
-1. Event created or updated
-2. Backend pushes WebSocket message
-3. Connected clients receive update instantly
-4. UI updates without page refresh
+<div align="center">
+  <img src="Image/Event_Web_Page .png" width="95%" alt="EventOS Web Interface" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+</div>
 
 ---
 
-# 🛠 Tech Stack
+## 📊 Live Dashboard
 
-### 🔹 Backend
-- Java 17
-- Spring Boot
-- Spring Security
-- Spring Data JPA
-- WebSockets
-- MySQL
-
-### 🔹 Frontend
-- React.js
-- Axios
-- WebSocket Client
-
-### 🔹 Tools
-- Maven
-- IntelliJ IDEA
-- Git & GitHub
-- Postman
+<div align="center">
+  <img src="Image/Event_DashBoard.png" width="95%" alt="EventOS Dashboard" style="border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+</div>
 
 ---
 
-# 📁 Project Structure
+## 🏗️ System Architecture
 
-
-
+```
+┌─────────────────────────────────────────────────────────┐
+│                   🌐 React Frontend                      │
+│              (UI Layer — Axios + STOMP Client)           │
+└────────────────────┬──────────────┬─────────────────────┘
+                     │              │
+              REST (Axios)    WebSocket (STOMP)
+                     │              │
+                     ▼              ▼
+┌─────────────────────────────────────────────────────────┐
+│              🟢 Spring Boot Backend                      │
+│  ┌──────────────────────────────────────────────────┐   │
+│  │         Controller Layer  (REST + WS)             │   │
+│  └──────────────────────┬───────────────────────────┘   │
+│                         ▼                                │
+│  ┌──────────────────────────────────────────────────┐   │
+│  │              Service Layer (Business Logic)       │   │
+│  └──────────────────────┬───────────────────────────┘   │
+│                         ▼                                │
+│  ┌──────────────────────────────────────────────────┐   │
+│  │         Repository Layer (Spring Data JPA)        │   │
+│  └──────────────────────┬───────────────────────────┘   │
+└───────────────────────────────────────────────────── ───┘
+                          │
+                          ▼
+            ┌─────────────────────────┐
+            │   🐘 PostgreSQL Database │
+            └─────────────────────────┘
+```
 
 ---
 
-# 🎯 Learning Goals
+## 🔐 Security Layer
 
-This project focuses on:
+<div align="center">
 
-- Mastering Spring Boot fundamentals
-- Understanding authentication flows
-- Building real-time backend systems
-- Integrating frontend and backend
-- Writing scalable, clean architecture
+```
+🔒 Spring Security Configuration
+┌─────────────────────────────────────────────┐
+│  ✅ Basic Authentication (HTTP)              │
+│  ✅ Secured REST Endpoints                   │
+│  ✅ CORS Configuration                       │
+│  🔜 Extendable to JWT                       │
+│  🔜 Role-Based Access Control (RBAC)        │
+└─────────────────────────────────────────────┘
+```
 
----
-
-# 🔜 Future Enhancements
-
-- JWT Authentication
-- Dockerization
-- CI/CD Pipeline
-- Production Deployment
-- Notification System
-- Event Analytics
+</div>
 
 ---
 
-<p align="center">
-⭐ Star this repository if you like the architecture!
-</p>
+## ✨ Core Features
 
-<p align="center">
-Built with ❤️ by Somnath Rana
-</p>
+<div align="center">
+
+```
+╔══════════════════════════════════════════════╗
+║            🌟 EventOS Features               ║
+╠══════════════════════════════════════════════╣
+║  📝  Create / Update / Delete Events         ║
+║  ⚡  Real-Time Dashboard via WebSockets      ║
+║  🔍  Search & Filter Events                  ║
+║  🟢  Live WebSocket Connection Status        ║
+║  🏛️  Clean MVC Layered Architecture         ║
+║  🐳  Docker Ready for Production             ║
+╚══════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+## 🐳 Docker Support
+
+<details>
+<summary><b>📦 Click to expand Docker setup</b></summary>
+
+<br/>
+
+**Dockerfile:**
+```dockerfile
+FROM eclipse-temurin:17
+COPY target/*.jar app.jar
+ENTRYPOINT ["java", "-jar", "/app.jar"]
+```
+
+**Build & Run:**
+```bash
+# Build the image
+docker build -t eventos-backend .
+
+# Run the container
+docker run -p 8095:8095 eventos-backend
+```
+
+</details>
+
+---
+
+## 🌍 Deployment Guide
+
+<details>
+<summary><b>🚀 Render Deployment</b></summary>
+
+```
+1. Connect GitHub repository to Render
+2. Build Command:  ./mvnw clean install
+3. Start Command:  java -jar target/*.jar
+4. Set environment variables
+5. Deploy 🎉
+```
+
+</details>
+
+<details>
+<summary><b>🚂 Railway Deployment</b></summary>
+
+```
+1. Create new Railway project
+2. Connect GitHub repository
+3. Add PostgreSQL plugin
+4. Set environment variables
+5. Deploy automatically 🎉
+```
+
+</details>
+
+<details>
+<summary><b>☁️ AWS EC2 Deployment</b></summary>
+
+```bash
+# 1. Launch EC2 instance (Ubuntu recommended)
+# 2. Install dependencies
+sudo apt update && sudo apt install openjdk-17-jdk maven git -y
+
+# 3. Clone & Run
+git clone <your-repo-url>
+cd event-management
+./mvnw spring-boot:run
+
+# 4. Open port 8095 in Security Group ✅
+```
+
+</details>
+
+---
+
+## 📁 Project Structure
+
+```
+event-management/
+│
+├── 📂 src/
+│   ├── 📂 main/
+│   │   ├── 📂 java/
+│   │   │   └── 📂 com/eventos/
+│   │   │       ├── 📂 controller/     # REST + WebSocket Controllers
+│   │   │       ├── 📂 service/        # Business Logic Layer
+│   │   │       ├── 📂 repository/     # Spring Data JPA Repos
+│   │   │       ├── 📂 model/          # JPA Entity Classes
+│   │   │       └── 📂 config/         # Security & WS Config
+│   │   └── 📂 resources/
+│   │       └── application.properties
+│   └── 📂 test/
+│
+├── 📂 event-frontend/                  # React Frontend
+│   ├── 📂 src/
+│   │   ├── 📂 components/
+│   │   ├── 📂 pages/
+│   │   └── 📂 services/               # Axios API Calls
+│   └── package.json
+│
+├── 📂 Image/                           # Screenshots
+├── 🐳 Dockerfile
+└── 📄 pom.xml
+```
+
+---
+
+## 📈 Learning Outcomes
+
+<div align="center">
+
+| 🎓 Concept | 📌 Applied In |
+|:---|:---|
+| Real-Time System Design | WebSocket (STOMP) Integration |
+| REST API Best Practices | Spring MVC Controller Layer |
+| Backend Security Fundamentals | Spring Security with Basic Auth |
+| Docker Containerization | Dockerfile + Docker Compose |
+| Frontend-Backend Integration | React + Axios + WebSocket Client |
+| Production Deployment Workflow | Render / Railway / AWS EC2 |
+
+</div>
+
+---
+
+## 🚀 Future Improvements
+
+- [ ] 🔐 **JWT Authentication** — Stateless token-based auth
+- [ ] 👥 **Role-Based Access Control** — Admin / User roles
+- [ ] ⚡ **Redis Caching** — Faster data retrieval
+- [ ] 🔄 **CI/CD Pipeline** — GitHub Actions automation
+- [ ] 📊 **Analytics Dashboard** — Event statistics & charts
+- [ ] 📱 **Mobile Responsive UI** — Full PWA support
+
+---
+
+## 👨‍💻 Developed By
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,2,5,30&height=1&width=100%"/>
+
+<br/>
+
+### **Somnath Rana**
+#### Full Stack Backend Engineer
+
+![Spring Boot](https://img.shields.io/badge/-Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![WebSockets](https://img.shields.io/badge/-WebSockets-FF6B35?style=flat-square&logo=socket.io&logoColor=white)
+![System_Design](https://img.shields.io/badge/-System_Design-1a1a2e?style=flat-square&logo=databricks&logoColor=white)
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Somnath%20Rana-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somnath7/)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/somnathrana)
+
+<br/>
+
+<a href="https://www.linkedin.com/in/somnath7/" target="_blank">
+  <img src="https://img.shields.io/badge/🔗%20Let's%20Connect%20on%20LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer&animation=fadeIn"/>
+
+**⭐ If you found this project helpful, please give it a star!**
+
+<img src="https://komarev.com/ghpvc/?username=somnathrana-eventos&label=Profile+Views&color=00d9ff&style=flat-square" alt="Profile Views"/>
+
+</div>
